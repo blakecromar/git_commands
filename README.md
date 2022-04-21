@@ -60,6 +60,22 @@ git pull --rebase | Similar to `git pull` but will stack the changes and not cre
 
 <img src="https://wac-cdn.atlassian.com/dam/jcr:d5633068-d448-4140-953e-2ab31553ce10/03%20bubble%20diagram-03-updated@2x%20kopiera.png?cdnVersion=309" width="40%" height="40%">
 
+## Git Merge
+
+Often used to add changes from one branch to another. The command assumes you are currently on the branch that has changes and you mention the branch you want to merge on to.
+
+<img src="https://wac-cdn.atlassian.com/dam/jcr:7afd8460-b7bf-4c42-b997-4f5cf24f21e8/01%20Branch-2%20kopiera.png?cdnVersion=309" width="40%" height="40%">
+<img src="https://wac-cdn.atlassian.com/dam/jcr:c6db91c1-1343-4d45-8c93-bdba910b9506/02%20Branch-1%20kopiera.png?cdnVersion=309" width="40%" height="40%">
+
+### Examples
+
+
+```
+git merge <branch name you are merging with> | merges changes from one branch to another branch
+```
+
+*TODO - ADD git merge --no-ff*
+
 ## Authors
 
 * **Blake Cromar** - *Initial work* 
@@ -69,3 +85,4 @@ git pull --rebase | Similar to `git pull` but will stack the changes and not cre
 * Adapted from Udacity, Machine Learning DevOps Engineer Nanodegree Program, 2022
 * Atlassian.com for image on Git Push, https://www.atlassian.com/git/tutorials/syncing/git-push, 2022
 * Atlassian.com for images on Git Pull, https://www.atlassian.com/git/tutorials/syncing/git-push, 2022
+* Atlassian.com for images on Git Merge, https://www.atlassian.com/git/tutorials/using-branches/git-merge, 2022
