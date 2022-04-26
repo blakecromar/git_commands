@@ -81,8 +81,6 @@ git merge <branch name you are merging with> --no-ff | forces a merge to have a 
 
 <img src="https://nvie.com/img/merge-without-ff@2x.png" width="40%" height="40%">
 
-*TODO - ADD git merge --no-ff*
-
 ## Authors
 
 * **Blake Cromar** - *Initial work* 
@@ -92,4 +90,5 @@ git merge <branch name you are merging with> --no-ff | forces a merge to have a 
 * Adapted from Udacity, Machine Learning DevOps Engineer Nanodegree Program, 2022
 * Atlassian.com for image on Git Push, https://www.atlassian.com/git/tutorials/syncing/git-push, 2022
 * Atlassian.com for images on Git Pull, https://www.atlassian.com/git/tutorials/syncing/git-push, 2022
-* Atlassian.com for images on Git Merge, https://www.atlassian.com/git/tutorials/using-branches/git-merge, 2022
+* Atlassian.com for image on Git Merge, https://www.atlassian.com/git/tutorials/using-branches/git-merge, 2022
+* nvie.com, article by Vincent Driessen, for image on git Merge, https://nvie.com/posts/a-successful-git-branching-model/, 2010
