@@ -79,11 +79,11 @@ git merge <branch name you are merging with> | merges changes from one branch to
 git merge <branch name you are merging with> --no-ff | forces a merge to have a new commit object (no fastforwarding) which can be good for perserving git history
 ```
 
+<img src="https://nvie.com/img/merge-without-ff@2x.png" width="40%" height="40%">
+
 ## Git Branch
 
-
-
-<img src="https://nvie.com/img/merge-without-ff@2x.png" width="40%" height="40%">
+(Add Text)
 
 ## Authors
 
