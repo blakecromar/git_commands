@@ -71,8 +71,15 @@ Often used to add changes from one branch to another. The command assumes you ar
 
 
 ```
-git merge <branch name you are merging with> | merges changes from one branch to another branch
+git merge <branch name you are merging with> | merges changes from one branch to another branch, fast forwarding will be done if possible
 ```
+*"fast forwarding is when there is a linear relationship betwen the two branches (no splitting) and the banch that is being merged on to is simply moving forward in commit history."*
+
+```
+git merge <branch name you are merging with> --no-ff | forces a merge to have a new commit object (no fastforwarding) which can be good for perserving git history
+```
+
+<img src="https://nvie.com/img/merge-without-ff@2x.png" width="40%" height="40%">
 
 *TODO - ADD git merge --no-ff*
 
