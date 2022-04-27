@@ -83,7 +83,69 @@ git merge <branch name you are merging with> --no-ff | forces a merge to have a 
 
 ## Git Branch
 
-(Add Text)
+Usually paired with another command, but it's primary purpose is to handle various elements of branching one's code.
+
+### Examples
+
+```
+git branch | Allows you to view all branches
+```
+
+```
+git branch <branch name> | Creates a new branch 
+```
+
+```
+git branch -d <branch name>| Allows you to delete a branch 
+```
+
+## Git Checkout
+
+Primarly used to switch between branches
+
+### Examples
+
+```
+git checkout <branch name you want to switch to> | Adds a new branch based on current head
+```
+
+```
+git checkout -b <new branch name> | Creates a new branch while also switching to is
+```
+
+## Git Status
+
+Used to provide information about changes that are different than HEAD
+
+### Examples
+
+```
+git status | gives a report about changes that differ from HEAD
+```
+
+## Git Stash
+
+Allows you to stash all staged and unstaged changes. This is great if you want to switch branches as you can't have changes before one switches.
+
+### Examples 
+
+```
+git stash | stores changes that have been make and restores code back to before the changes were made
+```
+
+```
+git stash pop | Reverts the code back to before a `git stash` was called
+```
+
+## Git Log
+
+Show a record of a list of commits in history. Press `return` to retrieve more history. Press `q` to exit log.
+
+### Examples
+
+```
+git log | shows a list of commits
+```
 
 ## Authors
 
