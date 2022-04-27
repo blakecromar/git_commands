@@ -147,6 +147,13 @@ Show a record of a list of commits in history. Press `return` to retrieve more h
 git log | shows a list of commits
 ```
 
+## Git Clone (SSH key)
+Used to clone a remote repo onto one's local computer.
+
+### Steps
+1. Check to see if you have a public key already. In your terminal type `~/.ssh` as this is where they are stored by default.
+2. https://git-scm.com/book/en/v2/Git-on-the-Server-Generating-Your-SSH-Public-Key <- Go here to finish
+
 ## Authors
 
 * **Blake Cromar** - *Initial work* 
