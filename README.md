@@ -147,12 +147,35 @@ Show a record of a list of commits in history. Press `return` to retrieve more h
 git log | shows a list of commits
 ```
 
-## Git Clone (SSH key)
+## Git Clone (SSH key method)
 Used to clone a remote repo onto one's local computer.
 
 ### Steps
-1. Check to see if you have a public key already. In your terminal type `~/.ssh` as this is where they are stored by default.
-2. https://git-scm.com/book/en/v2/Git-on-the-Server-Generating-Your-SSH-Public-Key <- Go here to finish
+
+Creating a SSH Key: 
+  1. Check to see if you have a public key already. In your terminal type `~/.ssh` as this is where they are stored by default.
+  2. If you already have ssh keys you will see files called `id_rsa` and `id_rsa.pub`. If you do have these files skip to step 6.
+  3. If you don't already have the key type `ssh-keygen -o` in your terminal. This will create the key you need.
+  4. Press `return` when it asks where you would like to save them. If you do this it will save those keys in the default location.
+  5. Press enter twice when its asks for a passphrase and asks again for confirmation.
+
+Adding the SSH Key to a github account:
+  6. Now that you have a puplic key type (or already have one) type 'cat ~/.ssh/id_rsa.pub'. This will print out the key. Copy that including the `ssh-rsa` part of the code.
+  7. Go to your github profile, go to the top right and click on the arrow next to your profile image.
+  8. Click settings.
+  9. On the left hand side look for "SSH and GPG Keys" and click on it.
+  10. Click on the green button that says "New SSH Key".
+  11. Give the key a title. I recommend something that indicate which computer key came from. After you do that, paste the SSH key in the text box where it is titled "Key". If you want to add more SSH keys so more computers can access your repo then you can repeat steps 6-11 once you have a computer's public key.
+
+Cloneing the repo on your local machine:
+  12. Now that github knows that there is a computer with a SSH key, that is given permission to clone, navigate to repo go to the repo you want to clone.
+  13. There is a green button that says "Code". Click on it.
+  14. Click on the tab that says "SSH".
+  15. There's a small button that looks like two squares. Click on it and it will copy everything in the box to the left of it to your computer's clip board.
+  16. Open your terminal if it's not already open.
+  17. Navigate to the folder you want this repo to be in.
+  18. Type `git clone <text that was copied to your clipboard in step 15>`.
+  19. Your now have that repo cloned to your local machine.
 
 ## Authors
 
@@ -165,3 +188,4 @@ Used to clone a remote repo onto one's local computer.
 * Atlassian.com for images on Git Pull, https://www.atlassian.com/git/tutorials/syncing/git-push, 2022
 * Atlassian.com for image on Git Merge, https://www.atlassian.com/git/tutorials/using-branches/git-merge, 2022
 * nvie.com, article by Vincent Driessen, for image on git Merge, https://nvie.com/posts/a-successful-git-branching-model/, 2010
+* git-scm.com, steps on how to create a SSH key, https://git-scm.com/book/en/v2/Git-on-the-Server-Generating-Your-SSH-Public-Key, 2022
