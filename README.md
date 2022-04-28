@@ -158,16 +158,12 @@ Creating a SSH Key:
   3. If you don't already have the key type `ssh-keygen -o` in your terminal. This will create the key you need.
   4. Press `return` when it asks where you would like to save them. If you do this it will save those keys in the default location.
   5. Press enter twice when its asks for a passphrase and asks again for confirmation.
-
-Adding the SSH Key to a github account:
   6. Now that you have a puplic key type (or already have one) type 'cat ~/.ssh/id_rsa.pub'. This will print out the key. Copy that including the `ssh-rsa` part of the code.
   7. Go to your github profile, go to the top right and click on the arrow next to your profile image.
   8. Click settings.
   9. On the left hand side look for "SSH and GPG Keys" and click on it.
   10. Click on the green button that says "New SSH Key".
   11. Give the key a title. I recommend something that indicate which computer key came from. After you do that, paste the SSH key in the text box where it is titled "Key". If you want to add more SSH keys so more computers can access your repo then you can repeat steps 6-11 once you have a computer's public key.
-
-Cloneing the repo on your local machine:
   12. Now that github knows that there is a computer with a SSH key, that is given permission to clone, navigate to repo go to the repo you want to clone.
   13. There is a green button that says "Code". Click on it.
   14. Click on the tab that says "SSH".
