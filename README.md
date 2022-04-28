@@ -110,11 +110,11 @@ git checkout <branch name you want to switch to> | Adds a new branch based on cu
 ```
 
 ```
-git checkout -b <new branch name> | Creates a new branch while also switching to is
+git checkout -b <new branch name> | Creates a new branch while also switching to it
 ```
 
 ```
-git checkout <commit id> | This allows you to be on a branch at a specific commit. 
+git checkout <commit id> | This allows you to be on a branch at a specific commit
 ```
 
 ## Git Status
