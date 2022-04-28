@@ -101,7 +101,7 @@ git branch -d <branch name>| Allows you to delete a branch
 
 ## Git Checkout
 
-Primarly used to switch between branches
+Primarly used to switch between branches. Normally, when you switch to a branch you start at the commit that is labled as HEAD. If you have a specific commit you can switch to a branch at that point. You can also modify and merge from a point that is a commit that isn't considered HEAD.
 
 ### Examples
 
@@ -111,6 +111,10 @@ git checkout <branch name you want to switch to> | Adds a new branch based on cu
 
 ```
 git checkout -b <new branch name> | Creates a new branch while also switching to is
+```
+
+```
+git checkout <commit id> | This allows you to be on a branch at a specific commit. 
 ```
 
 ## Git Status
