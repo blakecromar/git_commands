@@ -196,4 +196,5 @@ git reset --hard HEAD~<number of commits from head> | HEAD is the latest commit.
 * Atlassian.com for images on Git Pull, https://www.atlassian.com/git/tutorials/syncing/git-push, 2022
 * Atlassian.com for image on Git Merge, https://www.atlassian.com/git/tutorials/using-branches/git-merge, 2022
 * nvie.com, article by Vincent Driessen, for image on git Merge, https://nvie.com/posts/a-successful-git-branching-model/, 2010
-* git-scm.com, steps on how to create a SSH key, https://git-scm.com/book/en/v2/Git-on-the-Server-Generating-Your-SSH-Public-Key, 2022
+* git-scm.com steps on how to create a SSH key, https://git-scm.com/book/en/v2/Git-on-the-Server-Generating-Your-SSH-Public-Key, 2022
+* wedocs.com on how to delete a commit, https://www.w3docs.com/snippets/git/deleting-commits-from-a-branch-in-git.html. 2022
