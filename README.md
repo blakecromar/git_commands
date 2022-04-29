@@ -76,7 +76,7 @@ git merge <branch name you are merging with> | merges changes from one branch to
 *"fast forwarding is when there is a linear relationship betwen the two branches (no splitting) and the banch that is being merged on to is simply moving forward in commit history."*
 
 ```
-git merge <branch name you are merging with> --no-ff | forces a merge to have a new commit object (no fastforwarding) which can be good for perserving git history
+git merge <branch name you are merging with> --no-ff -m "<messege about merge>"| forces a merge to have a new commit object (no fastforwarding) which can be good for perserving git history
 ```
 
 <img src="https://nvie.com/img/merge-without-ff@2x.png" width="40%" height="40%">
@@ -175,6 +175,15 @@ Used to clone a remote repo onto one's local computer.
 17. Navigate to the folder you want this repo to be in.
 18. Type `git clone <text that was copied to your clipboard in step 15>`.
 19. Your now have that repo cloned to your local machine.
+
+## Git Reset
+
+Used to reset a branch to a commit
+
+### Examples
+```
+git reset --hard HEAD~<number of commits from head> | HEAD is the latest commit. This will reset the current branch `X` number of commits from HEAD and leave it uncommited. 
+```
 
 ## Authors
 
