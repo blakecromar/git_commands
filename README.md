@@ -178,7 +178,7 @@ Used to clone a remote repo onto one's local computer.
 
 ## Git Reset
 
-Used to reset a branch to a commit
+Used to reset a branch to a commit.
 
 ### Examples
 ```
