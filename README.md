@@ -185,6 +185,15 @@ Used to reset a branch to a commit.
 git reset --hard HEAD~<number of commits from head> | HEAD is the latest commit. This will reset the current branch `X` number of commits from HEAD and leave it uncommited. 
 ```
 
+## Git Submodule
+
+Handles submodules within a repo
+
+### Examples
+```
+## git submodule update --remote | Updates submodules to whatever is current on remote repository
+```
+
 ## Authors
 
 * **Blake Cromar** - *Initial work* 
