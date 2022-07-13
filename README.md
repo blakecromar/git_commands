@@ -99,6 +99,10 @@ git branch <branch name> | Creates a new branch
 git branch -d <branch name>| Allows you to delete a branch 
 ```
 
+```
+git branch -m <new branch name> | Allows you to modify the name of the branch.
+```
+
 ## Git Checkout
 
 Primarly used to switch between branches. Normally, when you switch to a branch you start at the commit that is labled as HEAD. If you have a specific commit ID you can switch to a branch at that point. You can also modify and merge from a point that is a commit that isn't considered HEAD. You can find commit IDs with `git log`.
